@@ -1,0 +1,116 @@
+
+body , ul, li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1rem;
+}
+.logo{
+    -webkit-mask-attachment: fixed;
+    width: 230px;
+    height: 230px;
+}
+.cabeca{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-image: url(img_est/iimgBack3.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: right center;
+    background-attachment: fixed;
+    padding-top: 15px;
+    padding-bottom: 70px;
+}
+.logo h1{
+    color: var(--cor_font_head);
+    padding-bottom: 8px;
+    text-shadow: 3px 3px 8px #000000;
+    font-family: Open Sans;
+    text-align: center;
+    font-size: 25px;
+}
+.cabecalho{
+    background: var(--cor_box);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 390;
+    width: auto;
+    height: 70px; 
+}
+.cabecalho a.imgHome{
+    width: auto;
+    height: 70px;
+    margin-left: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.8s;
+}
+.imgHome:hover{
+    background-color: var(--cor_hover_box);
+}
+.menu {
+    display: flex;
+    margin-left: 10px;
+}
+.menu a{
+    text-decoration: none;
+    font-family: var(--fonte_head);
+    color: var(--cor_font_head);
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.menu li{
+    width: auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: var(--cor_box);
+    transition: background-color 0.8s;
+}
+.menu li:hover{
+    background-color: var(--cor_hover_box);
+}
+.bot{
+    width: auto;
+    height: 50px;
+    background-color: var(--cor_hover_box);
+}
+body{
+    background-color: var(--cor_font_head);
+}
+.textoTittle{
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+    color: var(--cor_font_text);
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: var(--cor_hover_box);
+    color: var(--cor_backG);
+}
+.bot{
+    width: auto;
+    height: 50px;
+    background-color: var(--cor_hover_box);
+}
+footer {
+    color: #777;
+    padding: 30px 0;
+    padding: 30px 0;
+    font-family: Times, Times New Roman, serif;
+    background-color: var(--cor_font_head);
+    margin-left: 20px;
+}
+footer{
+    margin-left: 480px;
+    margin-top: 5px; 
+}
+footer img {
+    padding-bottom: 2px;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 35px;  
+}   
