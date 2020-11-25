@@ -4,7 +4,7 @@
 | --- | --- | --- | --- |
 | 2.1 | https://github.com/Yan-branco/ProjetoCana | repositório | ✅ |
 | 2.2 |  | site | ✅ |
-| 2.3 |  | integrantes | ✅ |
+| 2.3 | https://github.com/Yan-branco/ProjetoCana/blob/main/README.md | integrantes | ✅ |
 | 2.4 | Página Produtos | tabela com valores | ✅ |
 | 2.5 | Todas as páginas (div) | background-image | ✅ |
 
