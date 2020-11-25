@@ -41,21 +41,18 @@
     justify-content: center;
     align-items: center;
 }
-table{
-    border-collapse: collapse;
-}
-td, th{
+table tr:nth-child(even){background-color: var(--cor_hover_box);}
+table, th, td{
     border-collapse: collapse;
     text-align: center;
-}
-td{
-    border: 1px solid black;
-}
-th, td {
     padding: 15px;
 }
-th {
-    border: 1px solid var(--cor_hover_box);
+td{
+    border: 1px solid rgba(92, 90, 90, 0.514);
+    padding: 8px;
+}
+th{
+    border: 1px solid #ffffff;
     background-color: var(--cor_hover_box);
     color: white;
 }
