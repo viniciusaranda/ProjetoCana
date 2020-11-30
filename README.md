@@ -11,6 +11,13 @@
 
 <br>
 
+| Item | Local | Conteúdo |  |
+| --- | --- | --- | --- |
+| 1.0 | Página produtos | Correção de erros | ✅ |
+| 2.1 | Página Fale | Formulário | ✅ |
+| 2.2 | Todas as páginas | Media queries | ✅ |
+
+<br>
 # Intregrantes
 | Nome | Matricula |
 | --- | --- |
