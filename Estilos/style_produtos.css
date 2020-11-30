@@ -33,15 +33,28 @@
     font-family: var(--fonte_head);
     color: var(--cor_font_text);
 }
+table tr:nth-child(even){background-color: var(--cor_hover_box);}
 .taball{
-    width: 100%;
-    height: 70vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-table tr:nth-child(even){background-color: var(--cor_hover_box);}
+table{
+    width: 40%;
+}
+table caption{
+    text-align: center;
+    border-bottom: .2em solid var(--cor_hover_box);
+    margin-bottom: .3em;
+    font-weight: bold;
+    text-shadow: 1px 1px 8px #494848af;
+    font-family: Open Sans;
+    text-align: center;
+    font-size: 35px;
+}
 table, th, td{
     border-collapse: collapse;
     text-align: center;
@@ -74,6 +87,10 @@ th{
     font-family: var(--fonte_head);
     color: var(--cor_font_head);
 }
-
+@media (max-width: 600px){
+    table{
+        width: 85%;
+    }
+}
 
 

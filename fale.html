@@ -64,11 +64,59 @@
                 </div>
                 
         </section>
+
+        <div class="cont_form">
+            <form name="meu_form">
+
+                <h1 class="box">Entre em contato</h1>
+
+                <input type="text" id="nomeid" placeholder="Yan" required="required" name="nome" />
+                <label for="nome">Nome</label>
+
+
+                <input type="text" id="nomeid2" placeholder="Branco" required="required" name="sobrenome" />
+                <label for="nome">Sobrenome</label>
+
+
+                <input type="tel" class="boxid" placeholder="(xx)xx-xx-xx-xx" name="telefone" />
+                <label for="telefone">Telefone</label>
+
+                <input type="email" class="boxid" placeholder="xxxxx@gmail.com" name="email" />
+                <label for="email">E-mail</label>
+
+                <input type="file" class="add" id="myFile" name="filename">
+                <label for="filename">Arquivo</label>
+                <p><br></p>
+                <hr>
+
+                <input type="text" id="assunto" placeholder="tema"  name="assunto" />
+                <label for="assunto">Assunto</label>
+                <textarea id="comentid" placeholder="Deixe sua opnião" required="required"></textarea>
+
+
+
+                <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+
+            </form>
+        </div>
+
         <div class = "bot"></div>
+
         <footer>
-            <img src="img/logo.png" alt="Logo Açucar Village">
+            <img class="imag" src="img/logo.png" alt="Logo Açucar Village">
             &copy; Copyright 2020 açucar village - Todos os direitos reservados.
             Proibida a reprodução total ou parcial sem prévia autorização
         </footer>
+
+        <script>
+            function Enviar(){
+                var nome = document.getElementById("nomeid");
+                var nome2 = document.getElementById("nomeid2");
+                var coment = document.getElementById("comentid");
+                if (nome.value != "" && nome2.value != "" && coment.value != "") {
+                    alert("Obrigado sr(a) " + nome.value +" "+ nome2.value +" os seus dados foram encaminhados com sucesso");
+                }
+            }
+        </script>
     </body>
 </html>
