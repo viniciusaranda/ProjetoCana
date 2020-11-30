@@ -13,11 +13,15 @@
 
 | Item | Local | Conteúdo |  |
 | --- | --- | --- | --- |
+| | https://github.com/Yan-branco/ProjetoCana | repositório | ✅ |
+| | https://yan-branco.github.io/ProjetoCana/ | site | ✅ |
+| | https://github.com/Yan-branco/ProjetoCana/blob/main/README.md | integrantes | ✅ |
 | 1.0 | Página produtos | Correção de erros | ✅ |
 | 2.1 | Página Fale | Formulário | ✅ |
 | 2.2 | Todas as páginas | Media queries | ✅ |
 
 <br>
+
 # Intregrantes
 | Nome | Matricula |
 | --- | --- |
