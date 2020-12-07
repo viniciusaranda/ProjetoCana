@@ -1,5 +1,7 @@
 # ProjetoCana
 
+Entrega 04
+
 | Item | Local | Conteúdo |  |
 | --- | --- | --- | --- |
 | 2.1 | https://github.com/Yan-branco/ProjetoCana | repositório | ✅ |
@@ -11,6 +13,8 @@
 
 <br>
 
+Entrega 05
+
 | Item | Local | Conteúdo |  |
 | --- | --- | --- | --- |
 | | https://github.com/Yan-branco/ProjetoCana | repositório | ✅ |
@@ -21,6 +25,17 @@
 | 2.2 | Todas as páginas | Media queries | ✅ |
 
 <br>
+
+Entrega 06
+
+| Item | Local | Conteúdo |  |
+| --- | --- | --- | --- |
+| | https://github.com/Yan-branco/ProjetoCana | repositório | ✅ |
+| | https://yan-branco.github.io/ProjetoCana/ | site | ✅ |
+| | https://github.com/Yan-branco/ProjetoCana/blob/main/README.md | integrantes | ✅ |
+| 2.1 | Página Fale | Validar as informações do usuário | ✅ |
+| 2.2 | Página Produtos | Botão para mostrar/esconder a tabela | ✅ |
+
 
 # Intregrantes
 | Nome | Matricula |
