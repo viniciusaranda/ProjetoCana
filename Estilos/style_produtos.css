@@ -28,10 +28,30 @@
     transition: background-color 0.8s;
     margin-left: 2px;
 }
+
 .nome_produto{
     font-size: 1.3em;
     font-family: var(--fonte_head);
     color: var(--cor_font_text);
+}
+.mid{
+
+    background-color: var(--cor_hover_box);
+}
+.tabela {
+    background-color: var(--cor_hover_box);
+    color: var(--cor_font_head);
+    border-style: none  ;
+    height: 70px;
+    width: 100px;
+    font-weight: bold;
+    transition: 0.8s;
+}
+.tabela:hover{
+    background-color: var(--cor_box);
+}
+#el{
+    display:none;
 }
 table tr:nth-child(even){background-color: var(--cor_hover_box);}
 .taball{
@@ -41,6 +61,10 @@ table tr:nth-child(even){background-color: var(--cor_hover_box);}
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+CAPTION#lename{
+    text-shadow: none;
+    color: var(--cor_font_text );
 }
 table{
     width: 40%;
