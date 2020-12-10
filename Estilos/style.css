@@ -30,6 +30,7 @@ body , ul, li {
     font-size: 25px;
 }
 .cabecalho{
+    z-index: -1;
     background: var(--cor_box);
     display: flex;
     align-items: center;
